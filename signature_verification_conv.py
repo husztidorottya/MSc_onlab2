@@ -68,7 +68,7 @@ def main():
     Y = np.asarray(target)
 
     # split input to train and test dataset
-    x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random$
+    x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
     
     X_train = np.asarray(x_train)
     Y_train = np.asarray(y_train).reshape(len(y_train),1)
