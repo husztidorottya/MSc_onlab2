@@ -26,7 +26,7 @@ def read_directory(path):
         
             if file.find('_e_') != -1:
                 target.append(1.0)
-           else:
+            else:
                 target.append(0.0)
                 
 
